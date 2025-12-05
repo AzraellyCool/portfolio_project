@@ -23,7 +23,7 @@
         "year": "2025",
         "event":"School project",
         "description" : "",
-        "source_code" : "",
+        "source_code" : "https://github.com/AzraellyCool/intro_project",
         "skills_used": ["HTML5","CSS", "Github"]
     },
     {
@@ -32,7 +32,7 @@
         "year": "2025",
         "event":"School project",
         "description" : "",
-        "source_code" : "",
+        "source_code" : "https://github.com/AzraellyCool/portfolio_project",
         "skills_used": ["HTML5","CSS", "JavaScript", "JSON", "Github", "Git"]
     }
 
