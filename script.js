@@ -23,21 +23,26 @@ function createHTML(data)
         let topSect = document.createElement("section");
         let bottomSect = document.createElement("section");
         let srcCode = document.createElement("h2");
+        let a = document.createElement("a");
 
         img.src = data[i].img_src;
-        console.log(img.src);
         h1.innerHTML = `${data[i].title}`;
         event.innerHTML = `${data[i].event}`;
         year.innerHTML = `${data[i].year}`;
         p.innerHTML = `${data[i].description}`;
-        srcCode.innerHTML = `${data[i].source_code}`
+        srcCode.innerHTML = "Source code";
         
+        a.href = `${data[i].source_code}`;
+        a.appendChild(srcCode);
+        console.log(a);
+
         topSect.appendChild(event);
         topSect.appendChild(year);
 
 
         bottomSect.appendChild(p);
-        bottomSect.appendChild(srcCode);
+        bottomSect.appendChild(a);
+        
 
         section.appendChild(h1);
         section.appendChild(topSect);
