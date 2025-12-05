@@ -59,6 +59,7 @@ function createHTML(data)
                 if (data[i].skills_used.includes(skillList[n].innerText))
                 {
                     skillList[n].style.backgroundColor = 'coral';
+                    skillList[n].style.transition = "background-color 0.5s";
                     console.log("hi");
                 }
                 console.log(skillList[n].innerText);
