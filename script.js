@@ -32,7 +32,7 @@ function createHTML(data)
         event.innerHTML = `${data[i].event}`;
         year.innerHTML = `${data[i].year}`;
         p.innerHTML = `${data[i].description}`;
-        srcCode.innerHTML = "Source code";
+        srcCode.innerHTML = "Source code &#8594";
         
         a.href = `${data[i].source_code}`;
         a.appendChild(srcCode);
