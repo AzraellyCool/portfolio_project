@@ -1,0 +1,142 @@
+/* Global-styles */
+body, html, p, footer, div, article, aside, nav,section
+{
+    margin: 0;
+	padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: black;
+}
+main{
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+nav{
+	
+    background-color: aqua;
+   
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+   
+    nav ul{
+        margin: 0;
+	    padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        height: 100%;
+    }
+    nav ul li{
+        padding: 15px;
+    }
+
+
+ul li{
+    list-style: none;
+}
+
+footer{
+    background-color: blanchedalmond;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    font-size: 18px;
+    margin-top: 5%;
+}
+    footer ul li{
+        display: inline-block;
+    }
+
+/* index-page */
+#intro, #overview{
+
+    width: 75%;
+    background-color: bisque;
+}
+    #intro p{
+        font-size: 25px;
+    }
+    #intro h1{
+        font-size: 35px;
+    }
+    #overview p{
+        font-size: 20px;
+    }
+    #intro{
+        margin-top: 5%;
+    }
+    #overview{
+        margin-top: 1%;
+    }
+
+#skills{
+    
+    margin-top: 3%;
+    width: 40%;
+    background-color: aqua;
+    text-align: center;
+}
+    #skills ul li{
+        padding-right: 2%;
+        font-size: 20px;
+        display: inline-block;
+        
+
+    }
+    #intro h1{
+        font-size: 42px;
+        
+    }
+    #skills h1{
+        font-size: 32px;
+    }
+
+
+/* projects-page */
+#side-skills
+{
+    width: 25%;
+    position: fixed;
+    margin-top: 1%;
+    height: 65%;
+    background-color: aqua;
+    right:25px;
+}
+    #side-skills h1{
+        padding-left: 10%;
+    }
+    #side-skills ul li{
+        padding:0.5%;
+        font-size: 24px;
+    }
+
+#projects
+{
+    margin-left: 10%;
+}
+
+    #projects section{
+        background-color: blue;
+        width: 65%;
+        height: 70%;
+        text-align: center;
+
+    }
+    #projects section section{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    #projects section img{
+        width: 660px;
+        height: 378px;
+    }
+

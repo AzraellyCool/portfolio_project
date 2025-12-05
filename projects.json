@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Mockup Project",
+        "img_src":"images/pexels-kei-scampa-1201427-2370726.jpg",
+        "year": "2025",
+        "event":"School project",
+        "description" : "",
+        "source_code" : "https://github.com/AzraellyCool/Mockup_Project",
+        "skills_used": ["HTML5","CSS"]
+    },
+    {
+        "title": "Validation Form",
+        "img_src":"images/pexels-kei-scampa-1201427-2370726.jpg",
+        "year": "2025",
+        "event":"School project",
+        "description" : "",
+        "source_code" : "https://github.com/AzraellyCool/Validation_form_project",
+        "skills_used": ["HTML5","CSS", "JavaScript"]
+    },
+    {
+        "title": "Introduction Webpage",
+        "img_src":"images/pexels-kei-scampa-1201427-2370726.jpg",
+        "year": "2025",
+        "event":"School project",
+        "description" : "",
+        "source_code" : "",
+        "skills_used": ["HTML5","CSS", "Github"]
+    },
+    {
+        "title": "This Portfolio!",
+        "img_src":"images/pexels-kei-scampa-1201427-2370726.jpg",
+        "year": "2025",
+        "event":"School project",
+        "description" : "",
+        "source_code" : "",
+        "skills_used": ["HTML5","CSS", "JavaScript", "JSON", "Github", "Git"]
+    }
+
+]
