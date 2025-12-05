@@ -11,6 +11,8 @@ function load() {
 function createHTML(data)
 {
     let projectSect = document.getElementById("projects");
+    let sideSkills = document.getElementById("side-skills");
+    let skillList = sideSkills.getElementsByTagName("li");
     
     for(let i = 0; i<data.length; i++)
     {
@@ -51,13 +53,25 @@ function createHTML(data)
         section.appendChild(bottomSect);
 
 
-        /*section.addEventListener('mouseover', function() {
+        section.addEventListener('mouseover', function() {
             //add check for skills used, change the list's bg color
-            section.style.backgroundColor = 'lightcoral';
+            for(let n = 0; n<skillList.length; n++){
+                if (data[i].skills_used.includes(skillList[n].innerText))
+                {
+                    skillList[n].style.backgroundColor = 'coral';
+                    console.log("hi");
+                }
+                console.log(skillList[n].innerText);
+                console.log(data[i].skills_used);
+            }
+            ;
         });
-        section.addEventListener('mouseout', function() {
-            section.style.backgroundColor = 'lightblue';
-        });*/
+        
+        section.addEventListener('mouseout', function(){
+            for(let n = 0; n<skillList.length; n++){
+            skillList[n].style.backgroundColor = 'aqua';
+            }
+        });
 
         projectSect.appendChild(section);
 

@@ -134,6 +134,10 @@ footer{
         justify-content: space-around;
         margin: auto;
     }
+    #projects a{
+        text-decoration-line: none;
+        color: black;
+    }
 
     #projects section img{
         width: 660px;

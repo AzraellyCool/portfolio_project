@@ -24,7 +24,7 @@
         "event":"School project",
         "description" : "",
         "source_code" : "https://github.com/AzraellyCool/intro_project",
-        "skills_used": ["HTML5","CSS", "Github"]
+        "skills_used": ["HTML5","CSS", "GitHub"]
     },
     {
         "title": "This Portfolio!",
@@ -33,7 +33,7 @@
         "event":"School project",
         "description" : "",
         "source_code" : "https://github.com/AzraellyCool/portfolio_project",
-        "skills_used": ["HTML5","CSS", "JavaScript", "JSON", "Github", "Git"]
+        "skills_used": ["HTML5", "CSS", "JavaScript", "JSON", "GitHub", "Git"]
     }
 
 ]
