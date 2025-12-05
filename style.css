@@ -6,7 +6,8 @@ body, html, p, footer, div, article, aside, nav,section
     box-sizing:border-box;
 }
 body{
-    background-image: url("pexels-apasaric-1694000.jpg");
+    background-image: url("images/pexels-apasaric-1694000.jpg");
+    background-attachment: fixed;
 }
 main{
     margin: auto;
