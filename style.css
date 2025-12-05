@@ -6,7 +6,7 @@ body, html, p, footer, div, article, aside, nav,section
     box-sizing:border-box;
 }
 body{
-    background-color: black;
+    background-image: url("pexels-apasaric-1694000.jpg");
 }
 main{
     margin: auto;
