@@ -53,19 +53,19 @@ footer{
     }
 
 /* index-page */
-#intro, #overview{
-
+#intro, #overview, #about-main{
+    padding: 2%;
     width: 75%;
     background-color: bisque;
 }
     #intro p{
-        font-size: 25px;
+        font-size: 18px;
     }
     #intro h1{
-        font-size: 35px;
+        font-size: 25px;
     }
     #overview p{
-        font-size: 20px;
+        font-size: 18px;
     }
     #intro{
         margin-top: 5%;
@@ -113,6 +113,7 @@ footer{
     #side-skills ul li{
         padding:0.5%;
         font-size: 24px;
+        width: fit-content;
     }
 
 #projects
@@ -144,3 +145,25 @@ footer{
         height: 378px;
     }
 
+/* about page */
+#about-main{
+    background-color: blue;
+    padding: 4%;
+    margin-top: 5%;
+
+}
+    #about-main p{
+        font-size: 21px;
+        padding: 1%;
+
+    }
+
+/* contact page */
+
+#contact_main section{
+    background-color: blue;
+    padding: 2%;
+    width: fit-content;
+    margin-top: 5%;
+    font-size: 25px;
+}
