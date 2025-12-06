@@ -34,6 +34,12 @@ nav{
     }
     nav ul li{
         padding: 15px;
+        
+        border-right: white solid 2px;
+        background-image: linear-gradient(to bottom, #173d76, #000000);
+    }
+    nav ul li:hover{
+        background-image: linear-gradient(to bottom, #009bcf, #000000);
     }
 
 
@@ -44,23 +50,39 @@ ul li{
 footer{
 
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
     font-size: 15px;
     margin-top: 5%;
     
 }
+    footer ul{
+        display: flex;
+        justify-content:center;
+    }
     footer ul li{
+        padding: 15px;
         display: inline-block;
+        border-right: white solid 2px;
+        text-align: end;
+        background-image: linear-gradient(to top, #173d76, #000000);
         
     }
-
+    footer ul li:hover{
+        background-image: linear-gradient(to top, #009bcf, #000000);
+    }
+    nav ul li:nth-last-child(1), footer ul li:nth-last-child(1)
+    {
+        border: none;
+    }
 
 section{
     border-radius: 5%;
     background-image: linear-gradient(to bottom, #3e1776, #101a2a);
-    color: rgb(210, 243, 255);
+    color: #fff;
+}
+
+a{
+   text-decoration: none;
+    color:white; 
 }
 /* index-page */
 #intro, #overview, #about-main{
@@ -117,8 +139,9 @@ section{
     position: fixed;
     margin-top: 1%;
     height: 65%;
-    background-color: aqua;
+    background-color: rgb(213, 255, 255);
     right:25px;
+    color:#101a2a;
 }
     #side-skills h1{
         padding-left: 10%;
@@ -134,7 +157,7 @@ section{
     margin-left: 10%;
     padding: 5%;
     background: none;
-    color: rgb(210, 243, 255);
+    color: #fff;
 }
 
     #projects section{
@@ -158,8 +181,10 @@ section{
         margin: auto;
     }
     #projects a{
-        text-decoration-line: none;
         color: white;
+    }
+    #projects a:hover{
+        color:rgb(255, 251, 39);
     }
     #projects section h2{
         font-size: 18px;
@@ -188,6 +213,7 @@ section{
     #about-main p{
         font-size: 21px;
         padding: 1%;
+        
 
     }
 

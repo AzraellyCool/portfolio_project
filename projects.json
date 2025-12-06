@@ -1,7 +1,7 @@
 [
     {
         "title": "Mockup Project",
-        "img_src":"images/pexels-kei-scampa-1201427-2370726.jpg",
+        "img_src":"images/mockup_preview.png",
         "year": "2025",
         "event":"School project",
         "description" : "",
@@ -10,7 +10,7 @@
     },
     {
         "title": "Validation Form",
-        "img_src":"images/pexels-kei-scampa-1201427-2370726.jpg",
+        "img_src":"images/order_form_preview.png",
         "year": "2025",
         "event":"School project",
         "description" : "",
@@ -19,7 +19,7 @@
     },
     {
         "title": "Introduction Webpage",
-        "img_src":"images/pexels-kei-scampa-1201427-2370726.jpg",
+        "img_src":"images/introduction_preview.png",
         "year": "2025",
         "event":"School project",
         "description" : "",
@@ -28,7 +28,7 @@
     },
     {
         "title": "This Portfolio!",
-        "img_src":"images/pexels-kei-scampa-1201427-2370726.jpg",
+        "img_src":"images/portfolio_preview.png",
         "year": "2025",
         "event":"School project",
         "description" : "",

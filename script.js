@@ -42,7 +42,7 @@ function createHTML(data)
         topSect.appendChild(year);
 
 
-        bottomSect.appendChild(p);
+        //bottomSect.appendChild(p);
         bottomSect.appendChild(a);
         
 
@@ -58,7 +58,7 @@ function createHTML(data)
             for(let n = 0; n<skillList.length; n++){
                 if (data[i].skills_used.includes(skillList[n].innerText))
                 {
-                    skillList[n].style.backgroundColor = 'coral';
+                    skillList[n].style.backgroundColor = '#3586ff';
                     skillList[n].style.transition = "background-color 0.5s";
                     console.log("hi");
                 }
@@ -70,7 +70,7 @@ function createHTML(data)
         
         section.addEventListener('mouseout', function(){
             for(let n = 0; n<skillList.length; n++){
-            skillList[n].style.backgroundColor = 'aqua';
+            skillList[n].style.background = "none";
             }
         });
 
