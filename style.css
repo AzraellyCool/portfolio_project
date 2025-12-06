@@ -240,10 +240,24 @@ a{
 
     }
 
+    #intro h1, #intro h2{
+        font-size: 21px;
+    }
+    #intro p, #overview p{
+        font-size: 15px;
+    }
     footer ul li{
         font-size: 14px;
     }
 	
+    #skills{
+        width: 80%;
+        text-align: center;
+    }
+    #skills ul li{
+        padding-right: 2%;
+        font-size: 15px;
+    }
     #projects section{
         
         margin: auto;
