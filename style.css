@@ -227,7 +227,7 @@ a{
     font-size: 25px;
 }
 
-@media(max-width:767px){
+@media(max-width:500px){
 
 
 	nav ul{
@@ -235,11 +235,20 @@ a{
 		justify-content: center;
 		flex-wrap: nowrap;
 	}
+    nav ul li{
+        font-size: 14px;
+
+    }
+
+    footer ul li{
+        font-size: 14px;
+    }
 	
     #projects section{
         
         margin: auto;
         margin-top: 1%;
+        width: 85%;
     }
     #projects section img{
         width: 230px;
